@@ -96,7 +96,7 @@ index c8db970ae2888484a891a1b8aa312fcdfe995f45..958f55bc117c021d32229463d4a044e1
  DEFINE_DEBUG_BOOL(trace_wasm_serialization, false,
                    "trace serialization/deserialization")
 diff --git a/src/wasm/function-compiler.cc b/src/wasm/function-compiler.cc
-index d05183a03da0e2f2a849a3335d86d28839b985ab..b3dc1e199af6db4354fb26e91ac5ff4e97e7b417 100644
+index 53ac7550f403357958f9ccf1e65267004bb6be27..fdf5cd9305bd97034355b5ab386cf8a2d98953d8 100644
 --- a/src/wasm/function-compiler.cc
 +++ b/src/wasm/function-compiler.cc
 @@ -261,6 +261,7 @@ void WasmCompilationUnit::CompileWasmFunction(Isolate* isolate,
